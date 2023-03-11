@@ -116,6 +116,7 @@ export type Endpoints = {
 	'channels/timeline': { req: TODO; res: TODO; };
 	'channels/unfollow': { req: TODO; res: TODO; };
 	'channels/update': { req: TODO; res: TODO; };
+	'channels/search': { req: TODO; res: TODO; };
 
 	// charts
 	'charts/active-users': { req: { span: 'day' | 'hour'; limit?: number; offset?: number | null; }; res: {
